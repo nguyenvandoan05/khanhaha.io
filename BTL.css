@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    max-width: 1500px;
+    margin: auto;
+    height: 100px;
+}
+
+header {
+    background-color:while (148, 28, 30);
+    text-align: center;
+    height: 300px;
+}
+
+
+/*-----------------------------------------nav------------------------------------------*/
+
+.menu_web {
+    background-color: (249, 245, 245);
+    margin-top: 100px;
+}
+
+.menu_web>.menu>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_web>.menu>ul>li>a {
+    color: black;
+}
+
+.menu_web>.menu>ul>li:nth-child(2) a,
+img {
+    line-height: 100px;
+}
+
+.menu_web>.menu>ul>li:nth-child(2) a:hover {
+    color: white;
+}
+
+.menu_web>.menu>ul>li:nth-child(3) {
+    position: relative;
+}
+
+.menu_web>.menu>ul>li:nth-child(3) input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 6px;
+    outline: none;
+}
+
+.menu_web>.menu>ul>li:nth-child(3) img {
+    position: absolute;
+    font-size: 25px;
+    right: 15px;
+    color: black;
+    line-height: 30px;
+}
+
+.menu_web>.menu>ul>li:nth-child(4) a:hover {
+    color: white;
+}
+
+.menu_web>.menu>ul>li:nth-child(5) a:hover {
+    color: white;
+}
+
+.menu_web>.menu>ul>li:nth-child(6) a:hover {
+    color: white;
+}
+
+.menu_web>.menu>ul>li:nth-child(7) a:hover {
+    color: white;
+}
+
+.menu_web>.menu>ul>li:nth-child(7) {
+    text-align: center;
+}
+
+.menu_web>.menu>ul>li:nth-child(8) button {
+    height: 35px;
+    padding: 0 12px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.menu_web>.menu>ul>li:nth-child(8) button img {
+    margin-right: 6px;
+}
+
+.menu_web>.menu>ul>li:nth-child(8) button:hover {
+    background-color: white;
+}
+
+.menu_web>.menu>ul>li:nth-child(9) a:hover {
+    color: white;
+}
+
+.menu_web>.menu>ul>li:nth-child(10) a:hover {
+    color: white;
+}
+
+
+/*--------------------------danhsachsanpham-----------------------*/
+
+.danhsachsanpham {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 1.6em;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.headline {
+    text-align: left;
+    margin: 40px 0;
+}
+
+ul.products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.products li {
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+ul.products li img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.products li .product-top {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.products li .product-top .product-thumb {
+    display: block;
+}
+
+ul.products li:hover .product-top .product-thumb img {
+    filter: opacity(80%);
+}
+
+ul.products li .product-top .product-thumb img {
+    display: block;
+}
+
+ul.products li .product-top a.buy-now {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    display: block;
+    background-color: rgb(148, 28, 30);
+    padding: 10px 0;
+    position: absolute;
+    bottom: -39px;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    opacity: 0.8;
+}
+
+ul.products li:hover a.buy-now {
+    bottom: 0px;
+}
+
+ul.products li .product-info {
+    padding: 10px 0;
+}
+
+ul.products li .product-info a {
+    display: block;
+    text-decoration: none;
+}
+
+ul.products li .product-info a.product-cart {
+    color: black;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+}
+
+ul.products li .product-info a.product-name {
+    color: black;
+    padding: 3px 0;
+}
+
+ul.products li .product-info .product-price {
+    color: black;
+    padding: 2px 0;
+    font-weight: 600;
+}
+
+/*--------------------------Sanphamphobien-----------------------*/
+
+.sanphamphobien{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.phobien h3{ 
+    font-size: 1.6em;
+    color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 700;
+}
+.phobien{
+    text-align: left;
+    margin: 40px 0;
+}
+ul.boximg {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.boximg li {
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+ul.boximg li img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul.boximg li .top {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.boximg li .top .thumb {
+    display: block;
+}
+
+ul.boximg li:hover .top .thumb img {
+    filter: opacity(80%);
+}
+
+ul.boximg li .top .thumb img {
+    display: block;
+}
+
+ul.boximg li .top a.buy {
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    display: block;
+    background-color: rgb(148, 28, 30);
+    padding: 10px 0;
+    position: absolute;
+    bottom: -39px;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    opacity: 0.8;
+}
+
+ul.boximg li:hover a.buy {
+    bottom: 0px;
+}
+
+ul.boximg li .info {
+    padding: 10px 0;
+}
+
+ul.boximg li .info a {
+    display: block;
+    text-decoration: none;
+}
+
+ul.boximg li .info a.cart {
+    color: black;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+}
+
+ul.boximg li .info a.name {
+    color: black;
+    padding: 3px 0;
+}
+
+ul.boximg li .info .price {
+    color: black;
+    padding: 2px 0;
+    font-weight: 600;
+}
+
+
+/*----------footer-------------*/
+
+.footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 30px;
+}
+.last{
+    background-color: black;
+    display: flex;
+    margin-top: -100px;
+}
+.last .last-left{
+    margin-left: 180px;
+    width: 15%;
+    border-right: 1px solid #80808073;
+}
+.last .last-right h3{
+    color: white;
+    font-size: 30px;
+
+}
+.last .last-left h3{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.last .last-left ul li{
+    padding-top: 15px;
+    color: yellow;
+}
+.last .last-middle{
+    width: 35%;
+    text-align: center;
+    padding-top: 20px;    
+    position: relative;
+    border-right: 1px solid #80808073;
+}
+.note{
+    margin-bottom: 10px;
+}
+.note input{
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px 5px 10px;
+    border: none;
+    outline: none;
+}
+.note button{
+    margin-left: -35px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+.note button i{
+    font-size: 20px;
+    color: #b7b721;
+}
+.last-middle .note p{
+    color: gray;
+    padding: 5px 5px 5px ;
+    font-weight: 700;
+}
+.last-right{
+    width: 25%;
+    color: gray;
+    padding-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
